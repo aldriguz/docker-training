@@ -2,12 +2,12 @@
 
 ## Create the image
 
-``` shell
+``` bash
 docker image build -t aldriguz/hello_node:0.0.0 .
 ```
 
 ## Pushing the image to docker registry
 
-``` shell
+``` bash
 docker image push aldriguz/hello_node:0.0.0
 ```
